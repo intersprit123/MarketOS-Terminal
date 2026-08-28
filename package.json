@@ -1,0 +1,12 @@
+{
+  "name": "marketos-terminal",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-first control terminal for MarketOS",
+  "type": "module",
+  "bin": { "marketos": "./src/index.js" },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": { "node": ">=20" }
+}
